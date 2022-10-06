@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #0e0e0e;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    top: -15px;
+}
+ul{
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 80px;
+    align-items: center;
+}
+li{
+    color: #8a8a8a;
+    padding-left: 28px;
+    list-style: none;
+    font-size: 18px;
+   
+}
+li:hover{
+    color: #9f4bb1;
+}
+.search{
+   position: absolute;
+   top: 16px;
+   left: 1070px;
+   height: 30px;
+   width: 200px;
+border-radius: 5px;
+background: #272727
+
+}
+input{
+    /* border-color: blue; */
+    color: #8a8a8a;
+    outline: 0;
+}
+.sLogo{
+position: absolute;
+height: 20px;
+width: 20px;
+left: 1243px;
+top: 21px;
+
+}
+.s1Logo{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    left: 1243px;
+    top: 21px;
+    opacity: 0;
+}
+.s1Logo:hover{
+   opacity: 1;
+}
+
+.scroll{
+   /* position:absolute; */
+    display: flex;
+    overflow-x: scroll;
+  
+    
+   
+
+ 
+}
+
+/* width */
+
+ .scroll::-webkit-scrollbar {
+     width: 2px;
+ }
+ 
+ .scroll::-webkit-scrollbar {
+   height: 8px;
+  }
+ 
+ .scroll::-webkit-scrollbar-thumb {
+     border-radius: 8px;
+     -webkit-box-shadow: inset 1px 1px 10px#8a8a8a;
+ 
+    
+ }
+.a{
+    color: #494949;
+    background-color: #0e0e0e;
+    border: none;
+    /* border-bottom: 1px solid #494949; */
+    /* border-top:1px solid black;
+    border-left: 1px solid #0e0e0e;
+    border-right:1px solid #0e0e0e; */
+ padding: 11px 21px 11px 21px;
+    /* outline: #0e0e0e; */
+    border-bottom: 1px solid #0e0e0e;
+
+}
+
+
+
+.a:hover{
+    border-bottom: 1px solid #9f4bb1;
+    }
+
+
+
+
+    .footer {
+        position: relative;
+        top: 1000px;
+        background-color: rgb(245, 159, 0);
+        color: white;
+        font-size: larger;
+        text-align: center;
+      
+        padding-top: 6px;
+    padding-bottom: 6px;
+    }
