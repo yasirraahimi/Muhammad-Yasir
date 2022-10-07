@@ -76,117 +76,7 @@ header ul .list{
 
  @media (max-width: 425px){
 
- .container{
-   position: relative;
-    /* position: relative; */
-    top: 50px;
-   /* background-color: brown; */
-left: 0px;
-right: 500px;
 
-
-}
-.leftside{
-   display: none;
-    position: absolute;
-    top: -20px;
-    /* background-color: #0e0e0e; */
-    left: 0px;
-    height: 1200px;
-    width: 50px;
-}
-.rightside{
-   display: none;
-    position: absolute;
-    top: -20px;
-    background-color: #0e0e0e;
-    left: 1299px;
-    height: 1200px;
-    width: 50px;
-}
-
-
-
-
-
-
-#img1{
-   height: 180px;
-   width: 320px;
-    left: 45px;
-    transition: transform 1s ease-in;
-    position: absolute;
-    cursor: grab;
-    border-radius: 5px20}
-   
-#img2{
-   height: 180px;
-   width: 320px;
-    left: 475px;
-    transition: transform 1s ease-in;
-    position: absolute;
-    cursor: grab;
-    border-radius: 5px;
-    
-}
-
-
-#img3{
-   height: 180px;
-   width: 320px;
-    left: 900px;
-    transition: transform 1s ease-in;
-    position: absolute;
-    cursor: grab;
-    border-radius: 5px;
-}
-#img4{
-   height: 180px;
-   width: 320px;
-    left: 1325px;
-    transition: transform 1s ease-in;
-    position: absolute;
-    cursor: grab;
-    border-radius: 5px;
-}
-#img5{
-   height: 180px;
-   width: 320px;
-    left: 1750px;
-    transition: transform 1s ease-in;
-    position: absolute;
-    cursor: grab;
-    border-radius: 5px;
-}
-#img6{
-   height: 180px;
-   width: 320px;
-    left: 2175px;
-    transition: transform 1s ease-in;
-    position: absolute;
-    cursor: grab;
-    border-radius: 5px;
-}
-
-#img1:hover{
-    box-shadow:  0px  0px 20px red;
-}
-#img2:hover{
-    box-shadow:  0px  0px 20px red;
- 
-}
-#img3:hover{
-    box-shadow:  0px  0px 20px red;
-}
-#img4:hover{
-    box-shadow:  0px  0px 20px red;
-}
-#img5:hover{
-    box-shadow:  0px  0px 20px red;
-}
-#img6:hover{
-    box-shadow:  0px  0px 20px red;
-}
  
 
 
@@ -200,7 +90,7 @@ right: 500px;
    font-family: sans-serif;
    /* background: red; */
    padding: 6px;
-   top: 360px;
+   top: 20px;
    left: 20px;
    border-left: 4px solid #9f4bb1;
  padding-right: 1000px;
@@ -210,8 +100,8 @@ right: 500px;
 
 .featuredImages{
    position: unset;
-  margin-top: 0px;
-  margin-top: 390px;
+  margin-top: 50px;
+
 display: flex;
 height: 200px;
 width: 350px;
@@ -484,4 +374,41 @@ border-radius: 20px;
    .s1Logo:hover{
       opacity: 1;
    }
+ }
+ @media (max-width: 425px){
+   .search{
+      position: absolute;
+      top: 22px;
+      left: 90px;
+      height: 20px;
+      width: 170px;
+   border-radius: 5px;
+   background: #272727
+   
+   }
+   input{
+       /* border-color: blue; */
+       color: #8a8a8a;
+       outline: 0;
+   }
+   .sLogo{
+   position: absolute;
+   height: 15px;
+   width: 15px;
+   left: 240px;
+   top: 24px;
+   
+   }
+   .s1Logo{
+       position: absolute;
+       height: 15px;
+       width: 15px;
+       left: 240px;
+       top: 24px;
+       opacity: 0;
+   }
+   .s1Logo:hover{
+      opacity: 1;
+   }
+
  }
