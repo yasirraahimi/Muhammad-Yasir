@@ -21,7 +21,7 @@ html{
     font-family: sans-serif;
     /* background: red; */
     padding: 6px;
-    top: 360px;
+    top: 120px;
     left: 60px;
     border-left: 4px solid #9f4bb1;
   padding-right: 1000px;
@@ -79,7 +79,7 @@ html{
 
 .featuredImages{
    position: relative;
-  top: 390px;
+  top: 150px;
   /* background: red; */
   height: 160px;
   width: 280px;
@@ -165,7 +165,7 @@ cursor: grab;
     font-family: sans-serif;
     /* background: red; */
     padding: 6px;
-    top: 460px;
+    top: 220px;
     left: 60px;
     border-left: 4px solid #9f4bb1;
   padding-right: 1000px;
@@ -173,7 +173,7 @@ cursor: grab;
 }
 .movieImages{
     display: flex;
-    margin-top: 500px;
+    margin-top: 260px;
 }
 .movieImg1{
     height: 160px;
