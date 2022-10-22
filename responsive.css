@@ -375,6 +375,10 @@ border-radius: 20px;
       opacity: 1;
    }
  }
+<<<<<<< HEAD
+=======
+
+>>>>>>> b6411ec554e3553e45d7611595297de3474d1144
  @media (max-width: 425px){
    
    
@@ -386,13 +390,23 @@ border-radius: 20px;
       height: 15px;
       width: 20px;
   }
+<<<<<<< HEAD
+=======
+}
+>>>>>>> b6411ec554e3553e45d7611595297de3474d1144
    
    
    
    
    
    
+<<<<<<< HEAD
    
+=======
+
+ @media (max-width: 325px){
+
+>>>>>>> b6411ec554e3553e45d7611595297de3474d1144
    .search{
       position: absolute;
       top: 22px;
@@ -532,3 +546,7 @@ border-radius: 20px;
  }
 
  
+<<<<<<< HEAD
+=======
+
+>>>>>>> b6411ec554e3553e45d7611595297de3474d1144
