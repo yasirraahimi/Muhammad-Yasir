@@ -375,6 +375,7 @@ border-radius: 20px;
       opacity: 1;
    }
  }
+
  @media (max-width: 425px){
    
    
@@ -386,13 +387,16 @@ border-radius: 20px;
       height: 15px;
       width: 20px;
   }
+}
    
    
    
    
    
    
-   
+
+ @media (max-width: 325px){
+
    .search{
       position: absolute;
       top: 22px;
@@ -532,3 +536,4 @@ border-radius: 20px;
  }
 
  
+
